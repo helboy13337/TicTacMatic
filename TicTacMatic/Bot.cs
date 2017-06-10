@@ -81,7 +81,6 @@ namespace TicTacMatic
             catch (ArgumentOutOfRangeException)
             {  // If no more possible plays
                 parent.ResetGame();
-                parent.Close();
                 return;
             }
 
