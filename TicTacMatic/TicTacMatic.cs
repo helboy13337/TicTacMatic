@@ -113,9 +113,13 @@ namespace TicTacMatic
 
         public void ResetGame()
         {
-            TicTacMatic tictactoe = new TicTacMatic();
-            tictactoe.Show();
-            this.Dispose(false);
+            foreach (PictureBox[] area in fields)
+            {
+                foreach (PictureBox field in area)
+                {
+                    field.ImageLocation = null;
+                }
+            }
         }
 
         private void TurnX()
