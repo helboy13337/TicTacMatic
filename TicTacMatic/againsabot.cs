@@ -5,17 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace TicTacMatic
 {
-    class Bot
+    class againsabot
     {
         bool xbot;
-        public Bot(bool pXBot)
+        public againsabot(bool pXBot)
         {
             xbot = pXBot;
         }
 
-        public void Play(TicTacMatic parent)
+        public void Play(player_vs_bot parent)
         {
             bool played = false;
             List<PictureBox> emptyButtons = new List<PictureBox>();
@@ -41,16 +42,16 @@ namespace TicTacMatic
                     parent.Play(emptyButtons[0], null);
                     return;
                 }
-                if (counter == 2 && emptyButtons.Count!=0)
+                if (counter == 2 && emptyButtons.Count != 0)
                 {
                     //MessageBox.Show(emptyButtons[0].Name);
                     played = true;
                     parent.Play(emptyButtons[0], null);
                     return;
-                } 
+                }
             }
             if (played == false) EmergencyPlay(parent);
-            
+
 
             //if (moves.Count != 0)
             //{
@@ -71,7 +72,7 @@ namespace TicTacMatic
             //else EmergencyPlay(parent);
         }
 
-        private void EmergencyPlay(TicTacMatic parent)
+        private void EmergencyPlay(player_vs_bot parent)
         {
             List<int> emptyButtons = new List<int>();
             for (int i = 1; i < 10; i++)
@@ -84,10 +85,11 @@ namespace TicTacMatic
             {
                 index = emptyButtons[new Random().Next(0, emptyButtons.Count)];
             }
-            
+
             catch (ArgumentOutOfRangeException)
             {  // If no more possible plays
                 parent.ResetGame();
+                parent.Close();
                 return;
             }
 

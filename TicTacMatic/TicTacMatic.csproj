@@ -48,7 +48,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="againsabot.cs" />
     <Compile Include="Bot.cs" />
+    <Compile Include="player vs bot .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="player vs bot .Designer.cs">
+      <DependentUpon>player vs bot .cs</DependentUpon>
+    </Compile>
+    <Compile Include="startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startup.Designer.cs">
+      <DependentUpon>startup.cs</DependentUpon>
+    </Compile>
     <Compile Include="TicTacMatic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="player vs bot .resx">
+      <DependentUpon>player vs bot .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startup.resx">
+      <DependentUpon>startup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TicTacMatic.resx">
       <DependentUpon>TicTacMatic.cs</DependentUpon>
     </EmbeddedResource>

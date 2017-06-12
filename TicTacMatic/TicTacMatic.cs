@@ -338,5 +338,10 @@ namespace TicTacMatic
         {
             return (PictureBox)this.Controls.Find("field" + index.ToString(), true)[0];
         }
+
+        private void TicTacMatic_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -161,6 +161,7 @@
             this.Controls.Add(this.field1);
             this.Name = "TicTacMatic";
             this.Text = "TicTacMatic";
+            this.Load += new System.EventHandler(this.TicTacMatic_Load);
             this.Click += new System.EventHandler(this.TicTacToe_Click);
             ((System.ComponentModel.ISupportInitialize)(this.field1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.field2)).EndInit();

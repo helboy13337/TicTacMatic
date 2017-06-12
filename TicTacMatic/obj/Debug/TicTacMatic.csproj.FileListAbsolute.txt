@@ -1,0 +1,13 @@
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\bin\Debug\O.png
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\bin\Debug\X.png
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\bin\Debug\TicTacMatic.exe.config
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\bin\Debug\TicTacMatic.exe
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\bin\Debug\TicTacMatic.pdb
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.csprojResolveAssemblyReference.cache
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.TicTacMatic.resources
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.Properties.Resources.resources
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.csproj.GenerateResource.Cache
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.exe
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.pdb
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.startup.resources
+C:\Users\kali\Desktop\tic\New folder\TicTacMatic\TicTacMatic\obj\Debug\TicTacMatic.player_vs_bot.resources

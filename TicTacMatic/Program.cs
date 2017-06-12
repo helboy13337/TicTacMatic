@@ -16,7 +16,7 @@ namespace TicTacMatic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TicTacMatic());
+            Application.Run(new startup());
         }
     }
 }
